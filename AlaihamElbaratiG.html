@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Bootstrap example</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <link href="https://fonts.googleapis.com/css?family=Oswald" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Work+Sans" rel="stylesheet">
+  
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+  <style>
+    /* Set height of the grid so .sidenav can be 100% (adjust if needed) */
+    .row.content {height: 1500px}
+    
+    /* Set gray background color and 100% height */
+    .sidenav {
+      background-color: #f1f1f1;
+      height: 100%;
+    }
+    
+    /* Set black background color, white text and some padding */
+    footer {
+      background-color: #555;
+      color: red;
+      padding: 15px;
+    }
+    
+    /* On small screens, set height to 'auto' for sidenav and grid */
+    @media screen and (max-width: 767px) {
+      .sidenav {
+        height: auto;
+        padding: 15px;
+      }
+      .row.content {height: auto;} 
+    }
+    p {
+    	font-family: 'Oswald', sans-serif;
+    }
+    h2 {
+    	font-family: 'Work Sans', sans-serif;
+	background: red``;
+	font-size: 50px;
+    }
+    p {
+	    background: red;
+	    font-size: 30px;
+    }
+  </style>
+</head>
+<body>
+
+<div class="container-fluid">
+  <div class="row content">
+    <div class="col-sm-3 sidenav">
+      <h4>Alaiham's Blog</h4>
+      <ul class="nav nav-pills nav-stacked">
+        <li class="active"><a href="#section1">Main</a></li>
+        <li><a href="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTmue3fI0qnYT9uKicY-1G6-BFpspiULSzHOJZIYaIepAGmDN5z">My cars</a></li>
+        <li><a href="https://www.randyjeffcoatbuilders.com/2014/images/property-1a.jpg">My house</a></li>
+        <li><a href="https://ksassets.timeincuk.net/wp/uploads/sites/54/2017/11/DSCF9432-1024x683.jpg">My iPhone</a></li>
+      </ul><br>
+      <div class="input-group">
+        <input type="text" class="form-control" placeholder="Search Blog..">
+        <span class="input-group-btn">
+          <button class="btn btn-default" type="button">
+            <span class="glyphicon glyphicon-search"></span>
+          </button>
+        </span>
+      </div>
+    </div>
+
+    <div class="col-sm-9">
+      <h4><small>RECENTLY</small></h4>
+      <hr>
+      <h2>Food and Drinks.</h2>
+      <h5><span class="glyphicon glyphicon-time"></span> Post by Alaiham Elbarati, March 1,2018.</h5>
+      <h5><span class="label label-danger">Food</span> <span class="label label-primary">Ipsum</span></h5><br>
+      <p>One of my favorite food is a hamburger with french fries.One of my favorite drinks is Guava juice.My top three foods for breakfast are eggs and cheese,pancakes,and waffles.My top three foods for lunch are chicken over rice,fish over rice and hamburger with french fries.My top three drinks are water,guava juice,and apple juice. </p>
+      <br><br>
+      
+      <h4><small>RECENTLY</small></h4>
+      <hr>
+      <h2>My LIFESTYLE.</h2>
+      <h5><span class="glyphicon glyphicon-time"></span> Post by John Doe, Sep 24, 2015.</h5>
+      <h5><span class="label label-success">Lorem</span></h5><br>
+      <p>Every morning, I get up,brush my teeth and take a shower.After that I eat breakfast then I go to school.After I come back home from school,I eat dinner,do my hw,go outside to play basketball.After that I watch tv and eat cereal then i go to sleep.</p>
+      <hr>
+      
+
+  <h4>Amazing Places to be at</h4>
+  <div class="row text-center slideanim">
+    <div class="col-sm-4">
+      <div class="thumbnail">
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTiUEVCIftpirnlTJyBcDe7fgrKRPx_0sn0bZs4yHxDlUFx1G7V" alt="Paris" width="400" height="300">
+        <p><strong>Paris</strong></p>
+        <p>Yes, we built Paris</p>
+      </div>
+    </div>
+    <div class="col-sm-4">
+      <div class="thumbnail">
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQRWbXGQK43bi8sUGebkN61sWuYIlFNeixgift-o33so5DzhPayWg" alt="New York" width="400" height="300">
+        <p><strong>New York</strong></p>
+        <p>We built New York</p>
+      </div>
+    </div>
+    <div class="col-sm-4">
+      <div class="thumbnail">
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR5UWiToUMhHU4agc8KLNmS3vU8QgFDrwoTxEcOcFh9uszP_kz8" alt="Los Aneles" width="400" height="300">
+        <p><strong>Los Angeles</strong></p>
+        <p>Yes, Los Angeles is ours </p>
+      </div>
+    </div>
+  </div><br>
+
+      <h4>comment here:</h4>
+      <form role="form">
+        <div class="form-group">
+          <textarea class="form-control" rows="3" required></textarea>
+        </div>
+        <button type="submit" class="btn btn-success">Submit here</button>
+      </form>
+      <br><br>
+      
+      <p><span class="badge">Two</span>  comments:</p><br>
+      
+      <div class="row">
+        <div class="col-sm-2 text-center">
+          <img src="http://wheelsca.s3.amazonaws.com/wp-content/uploads/2015/10/Nickie-Minaj.png" class="img-circle" height="65" width="65" alt="Avatar">
+        </div>
+        <div class="col-sm-10">
+          <h4>Amy <small> March 2,2018 10:14 AM</small></h4>
+          <p>Very nice! Keep up the good work:) </p>
+          <br>
+        </div>
+        <div class="col-sm-2 text-center">
+          <img src="https://www.famousbirthdays.com/headshots/adam-saleh-9.jpg" class="img-circle" height="65" width="65" alt="Avatar">
+        </div>
+        <div class="col-sm-10">
+          <h4>Adam <small>March 2,2018 9:17 PM</small></h4>
+          <p>I am very proud of you bro! What a great lifestyle man. Keep up the good work.</p>
+          <br>
+          <p><span class="badge">One</span>  Comment:</p><br>
+          <div class="row">
+            <div class="col-sm-2 text-center">
+              <img src="http://cdn02.cdn.justjared.com/wp-content/uploads/headlines/2017/07/drake-new-tattoo.jpg" class="img-circle" height="65" width="65" alt="Avatar">
+            </div>
+            <div class="col-xs-10">
+              <h4>Drake <small>March 3,2018 11:59AM</small></h4>
+              <p>Just AMAZING! What a great bio.</p>
+              <br>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<footer class="container-fluid">
+  <p>Footer Text</p>
+</footer>
+
+</body>
+</html>
